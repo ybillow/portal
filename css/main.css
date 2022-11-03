@@ -1,10 +1,9 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 html {
-    background-color: #d55151;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #F8C4B4;
+    font-family: 'Biorhyme''Roboto Condensed', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
