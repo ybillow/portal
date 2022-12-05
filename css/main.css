@@ -7,6 +7,12 @@ html {
     font-size: 0.95em;
     line-height: 1.5em;
 }
+
+.image{
+   margin: 0;
+   padding: 0%; 
+}
+
 body{
     margin:0; /* removes space above body, top of page */
 }
@@ -54,6 +60,23 @@ footer {
     text-align: center;
     padding: 1em;
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 /* Responsive rules */
 
